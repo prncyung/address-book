@@ -1,0 +1,166 @@
+/****************
+Default styles
+*******************/
+body{
+   font-family: helvetica;
+    background-color: #f2f2f2;
+    margin:30px auto;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: bookman;  
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:deepskyblue;
+}
+#container{
+    width:80%;
+    margin:0 auto;
+}
+/***** Address title section***/
+.address-title-section{
+    width:100%;
+    text-align: center;
+    background: #a7d6e5;
+    border-radius: 10px;
+}
+.address-title{
+   color:#fff;
+}
+
+/*******Address section******/
+.address-section{
+    width:100%;
+    /*border-bottom:1px solid #a7d6e5;*/
+    margin-top:5px;
+}
+/*******Address section******/
+.address-form{
+    width:50%;
+    float:left;
+    border-right:1px solid #a7d6e5;
+    text-align: center;
+    margin-top: 10px;
+}
+/* form styling*/
+.form-div-input{
+    width:100%;
+    margin: 15px 0 0 0;
+}
+input[type=text]{
+    width:80%;
+    padding:10px;
+    box-sizing: border-box;
+}
+input[type=text]:focus {
+    background-color: #eaeaea;
+    outline:1px solid #a7d6e5;
+    border-radius: 4px;
+}
+input[type=button]{
+    background-color: #a7d6e5;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*******Address book section******/
+.address-book-section{
+    width:48%;
+    float:right;
+    margin-top: 10px;
+}
+.address-book-header{
+    width: 90%;
+    position:relative;
+    display:block;
+    background-color: #a7d6e5;
+}
+.address-book-title{
+    float:left;
+    width:50%;
+}
+.address-book-setting{
+    float:right;
+    width:50%;
+    text-align: right;
+    margin: 15px 0 5px 0;
+}
+/*******contact section******/
+.contact-section{
+    display:inline-block;
+    width: 90%;
+    margin-bottom:20px;
+}
+.new-contact-display{
+    width: 95%;
+    float:left;
+    background-color: #a7d6e5;
+    padding:0 10px 0 10px;
+    color:#fff;
+    border-right:1px solid #fff;
+    margin-bottom:8px;
+}
+.new-contact-title{
+    width:100%;
+    text-align:center;
+}
+/*******new-contact section, displays result******/
+.new-contact{
+    background-color: #fff;
+    width:95%;
+    display:block;
+    padding:10px;
+}
+.response>h3{
+    margin-left:30px;
+    color:#d43c3c;
+    padding-left:5px;
+}
+.col-md-1{ width: 7.5%; padding: 5px; float: left;}
+.col-md-2{ width: 15%; padding: 5px; float: left;}
+.col-md-3{ width: 24%; padding: 5px; float: left;}
+.col-md-4{ width: 32%; padding: 5px; float: right;}
+.col-md-5{ width: 40%; padding: 5px; float: left;}
+.col-md-6{ width: 48%; padding: 5px; float: left;}
+.col-md-7{ width: 56%; padding: 5px; float: left;}
+.col-md-8{ width: 64%; padding: 5px; float: left;}
+.col-md-9{ width: 72%; padding: 5px; float: left;}
+.col-md-10{ width: 80%; padding: 5px; float: left;}
+.col-md-11{ width: 88%; padding: 5px; float: left;}
+.col-md-12{ width: 96%; padding: 5px; float: left;}
+.row{ width: 100%; padding: 5px;}
+.a{
+
+}
+.for-name{
+    display:inline-block;
+    width: 15%;
+    margin:8px 0 0 10px;
+}
+.name-detail{
+    display:inline-block;
+    width:80%;
+}
+.contactView1{
+    width:70%;
+}
+.name-email-phone{
+    display:inline;
+    float:left;
+    width:80%;
+    height:90px;
+    /*padding: 0 5px 10px 5px;*/
+}
+.image-div{
+    display:inline;
+    float:right;
+    width:20%;
+}

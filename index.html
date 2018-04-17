@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>ADDRESS BOOK</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="container">
+    <div class="address-title-section">
+        <div class="address-title">
+            <h1>Address Book</h1>
+        </div>
+    </div>
+    <div class="address-section">
+        <div class="address-form">
+            <h3>Create Address</h3>
+            <form id="addressBookForm">
+               <div class="form-div-input">
+                <div id="currentOperation"></div>
+                <label class="label">Name: </label><input type="text" name="name" class="name" id="name"
+                                                          placeholder="Your name.."/>
+                </div>
+                <div class="form-div-input">
+                    <label class="label">Email: </label><input type="text" name="email" class="email" id="email"
+                                                               placeholder="Your email.."/>
+                    <input type="hidden" name="oldEmail" id="oldEmail" value=""/>
+                </div>
+                <div class="form-div-input">
+                    <label class="label">Phone: </label><input type="text" name="phone" class="phone" id="phone"
+                                                               placeholder="Your phone number.."/>
+                </div>
+                <div class="form-div-input">
+                    <label class="label">Image: </label><input type="file" name="image" class="image" id="image"/>
+                </div>
+                <div style="display:none;" id="workTable"></div>
+
+
+                <div id="alert"></div>
+                <input type="button" id="save" name="save" class="save" value="SAVE"/>
+                
+                <input type="button" id="update" name="update" class="btn-manage"  value="Update"/>
+                <input type="button" id="view" name="view" class="btn-manage" value="VIEW"/>
+                <input type="button" id="viewAll" name="viewAll" class="btn-manage" value="VIEW ALL"/> 
+                <input type="button" id="delete" name="delete" class="btn-manage"  value="Delete"/>
+            </form>
+        </div>
+        <div class="address-book-section">
+            <div class="address-book-header">
+                <div class="address-book-title">
+                    <h3>Contact</h3>
+                </div>
+                <!--<div class="address-book-setting">
+                    <a href="#">
+                        <li>Action<!--<img src="assets/images/settings-mini.png"/></li>
+                    </a>
+                    <li></li>
+                </div>-->
+            </div>
+            <div class="contact-section">
+                <div class="new-contact-display">
+                    <div class="new-contact-title"><h4>NEW CONTACT</h4></div>
+                    <!--<div class="new-contact-title" style="float:right"><h4>VIEW ALL CONTACT</h4></div>-->
+                </div>
+                <div class="new-contact" id="address-book">
+
+                    <!--  contact will display here-->
+                </div>
+                
+            </div>
+           
+        </div>
+        
+        
+    
+        <!--<div  class="row a" style="position:relative;">
+              
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-1">Name:</div><div class="col-md-11">Bright</div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-1">Email:</div><div class="col-md-11">Bright@yahoo.com</div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-1">Phone:</div><div class="col-md-11">08077665</div>
+                    </div>
+                 </div>
+         </div>
+         <div class="col-md-4"><img src="" height="300" width="400"/></div>
+        -->
+
+        
+    </div><br><br>
+    <div class="contactView1 a" style="position:relative;" id="contactView"></div>
+    
+    <script type="text/javascript" src="js/contact.js"></script>
+</div>
+</body>
+</html>
